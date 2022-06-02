@@ -27,3 +27,79 @@
      min-height: 790px;
      margin: 60px auto 0 -43px;
  }
+ 
+ .blue_card {
+     max-width: 980px;
+     min-height: 571px;
+     background-color: #0F2757;
+     z-index: 2;
+     position: absolute;
+     top: 12%;
+     padding-left: 90px;
+     padding-right: 84px;
+ }
+ 
+ .app_os {
+     font-weight: 700;
+ }
+ 
+ .btn {
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     text-decoration: none;
+     margin: 81px 3.4375px 0px -9.42px;
+     padding: 20px;
+     border-radius: 4px;
+     cursor: pointer;
+     position: absolute;
+ }
+ 
+ .btn:hover {
+     background-color: #ff0000;
+ }
+ 
+ .btn,
+ h1 {
+     font-weight: 700;
+ }
+ 
+ .left_4bars {
+     width: 250px;
+     margin: -131px auto 0 -221px;
+     z-index: 3;
+     position: absolute;
+     top: 14%;
+     left: 22%;
+ }
+ 
+ .web_design {
+     z-index: 10;
+     position: absolute;
+     top: 13%;
+     left: 100%;
+ }
+ 
+ h5 {
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 1.5rem;
+     margin-bottom: -1.5rem;
+ }
+ 
+ h2 {
+     font-size: 10.5rem;
+     line-height: 1;
+     letter-spacing: -5px;
+     font-weight: 700;
+ }
+ 
+ .red_circle {
+     font-family: 'Open Sans', sans-serif !important;
+     width: 51px;
+     height: 49px;
+     background-image: none;
+     box-shadow: 2px 2px 15px 0 rgb(0 0 0 / 45%);
+     position: absolute;
+     top: 55%;
+     border-radius: 50%;
+ }
