@@ -103,3 +103,75 @@
      top: 55%;
      border-radius: 50%;
  }
+ 
+ .software {
+     position: absolute;
+     right: 21%;
+     z-index: 14;
+ }
+ /* Elements with same property and values  */
+ 
+ .software p,
+ .blue_card p {
+     font-family: Roboto, sans-serif !important;
+     margin-bottom: 2px;
+     margin: 20px 0 0;
+     font-size: 24px;
+ }
+ 
+ .bg {
+     background-color: #f15048;
+ }
+ 
+ p,
+ h1,
+ h2,
+ h5,
+ .btn,
+ .app,
+ .web_design {
+     color: #fff;
+ }
+ /* properties on all transparent cards */
+ 
+ .app p {
+     font-weight: 500;
+     font-size: 1.125rem;
+     padding: 1rem;
+ }
+ 
+ .u-svg-content {
+     max-width: 60px;
+     fill: #fff;
+ }
+ 
+ .windows_app,
+ .mac_os_app,
+ .wordpress,
+ .joomla,
+ .nicepage_online {
+     background-color: #3ea4fdc0;
+     opacity: 0.8;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     margin: 4px;
+     padding: 1rem;
+     max-width: 100%;
+     flex: 1;
+ }
+ /* End of elements of same properties and values */
+ 
+ h1 {
+     font-size: 2.25rem;
+     line-height: 1.2;
+     max-width: 750px;
+     margin: 20px 0 0;
+ }
+ 
+ h3 {
+     color: #e5e5e5;
+     font-size: 24px;
+     margin: 26px 0 0;
+ }
